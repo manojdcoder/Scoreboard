@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Scoreboard</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="increase_by">Increase score by</string>
+    <string name="increase_by_one">One</string>
+    <string name="increase_by_two">Two</string>
+    <string name="increase_by_four">Four</string>
+    <string name="increase_by_six">Six</string>
+</resources>

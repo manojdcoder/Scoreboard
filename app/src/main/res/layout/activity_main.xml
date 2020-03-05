@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="56dp"
+            android:text="@string/team_a"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/llA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="45dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtA">
+
+            <Button
+                android:id="@+id/btnUpA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_light"
+                android:text="+"
+                android:textColor="@android:color/white"
+                android:textSize="35sp"
+                android:onClick="onClick" />
+
+            <TextView
+                android:id="@+id/txtScoreA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnDownA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_light"
+                android:text="-"
+                android:textColor="@android:color/white"
+                android:textSize="35sp"
+                android:onClick="onClick" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="48dp"
+            android:text="@string/team_b"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/llB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="48dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtB">
+
+            <Button
+                android:id="@+id/btnUpB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_light"
+                android:text="+"
+                android:textColor="@android:color/white"
+                android:textSize="35sp"
+                android:onClick="onClick" />
+
+            <TextView
+                android:id="@+id/txtScoreB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnDownB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_light"
+                android:text="-"
+                android:textColor="@android:color/white"
+                android:textSize="35sp"
+                android:onClick="onClick" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rbBy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginEnd="48dp"
+            android:checkedButton="@+id/rbBy1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/llB">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/increase_by"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbBy1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/increase_by_one" />
+
+            <RadioButton
+                android:id="@+id/rbBy2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/increase_by_two" />
+
+            <RadioButton
+                android:id="@+id/rbBy4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/increase_by_four" />
+
+            <RadioButton
+                android:id="@+id/rbBy6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/increase_by_six" />
+
+        </RadioGroup>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
