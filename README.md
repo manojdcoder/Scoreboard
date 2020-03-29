@@ -6,7 +6,7 @@ Cambrian lab
 
 | Screen 1                           |
 | ---------------------------------- |
-| ![Screen 1](./images/screen_1.png) |
+| <img src="./images/screen_1.png" width="35%"> |
 
 ## Review - 03/05/2020
 
