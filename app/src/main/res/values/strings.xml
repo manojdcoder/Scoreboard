@@ -7,4 +7,15 @@
     <string name="increase_by_two">Two</string>
     <string name="increase_by_four">Four</string>
     <string name="increase_by_six">Six</string>
+    <string name="toast_info">Developed by %s</string>
+
+    <!-- Main Menu -->
+    <string name="info">Info</string>
+    <string name="settings">Settings</string>
+
+    <!-- Preference -->
+    <string name="save_header">Save</string>
+    <string name="save_title">Remember scores</string>
+    <string name="save_summary_off">Scores will not be persistent across sessions.</string>
+    <string name="save_summary_on">Scores will be persistent across sessions.</string>
 </resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_key_save">save</string>
+    <string name="preference_key_score_a">score_a</string>
+    <string name="preference_key_score_b">score_b</string>
+    <string name="preference_key_increase_by">increase_by</string>
+</resources>

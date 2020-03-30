@@ -2,6 +2,10 @@
 
 Cambrian lab
 
+## Demo
+
+![Demo](./images/demo.gif)
+
 ## Review - 03/05/2020
 
 ### Code review with Faisal
