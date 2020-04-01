@@ -10,6 +10,7 @@
     <string name="toast_info">Developed by %s</string>
 
     <!-- Main Menu -->
+    <string name="score">Scores</string>
     <string name="info">Info</string>
     <string name="settings">Settings</string>
 

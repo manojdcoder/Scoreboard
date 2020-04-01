@@ -4,7 +4,9 @@ Cambrian lab
 
 ## Demo
 
-![Demo](./images/demo.gif)
+| Phone                                                          | Tablet                                                           |
+| -------------------------------------------------------------- | ---------------------------------------------------------------- |
+| <img src="./images/demo_phone.gif" alt="Phone" height="420" /> | <img src="./images/demo_tablet.gif" alt="Tablet" height="420" /> |
 
 ## Review - 03/05/2020
 
